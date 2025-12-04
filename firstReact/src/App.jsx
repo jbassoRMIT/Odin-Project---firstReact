@@ -5,6 +5,7 @@ import './App.css';
 import Greeting from './Greeting';
 import Food from './Food';
 import Animals from './Animals';
+import PackingList from './PackingList';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +13,9 @@ function App() {
   return (
     <>
       <Greeting person={"Jack basso"}/>
-      <Food food={23}/>
-      <Animals/>
+      {/* <Food food={23}/>
+      <Animals/> */}
+      <PackingList/>
     </>
   )
 }
